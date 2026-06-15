@@ -1,0 +1,12 @@
+.divv {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;    
+    gap: 20px;
+    background-color: blanchedalmond;       
+}
+
+.timee {
+    font-size: 40px;
+}
