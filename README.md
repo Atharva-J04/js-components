@@ -4,4 +4,4 @@ A collection of beginner-friendly JavaScript projects built while learning JavaS
 
 ## Projects 
 - Digital Clock
-- rock~paper~scissor game
+- rock-paper-scissor game
