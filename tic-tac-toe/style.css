@@ -1,0 +1,28 @@
+  body {
+        margin: 0;
+        height: 100vh;            /* Uses full viewport height */
+        display: flex;
+        justify-content: center;  /* Horizontal centering */
+        align-items: center;      /* Vertical centering */
+        background-color: #ffffff;
+    }
+ 
+ 
+ .board {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        gap: 5px;
+        background-color: #333333; /* Dark grey box color */
+        padding: 5px;
+        width: max-content;
+    }
+    /* Normal cells */
+    .cell {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        font-family: sans-serif;
+    }
