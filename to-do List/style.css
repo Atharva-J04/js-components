@@ -1,0 +1,78 @@
+  /* Import a clean font that looks neat but simple */
+        @import url('https://googleapis.com');
+
+        /* Center everything perfectly on the screen */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Container to align elements vertically */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Aligns items to the left, matching the sketch */
+            width: 300px; /* Limits width to keep elements neatly stacked */
+        }
+
+        /* Heading style */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: #000000;
+            margin: 0 0 20px 0;
+            letter-spacing: -0.5px;
+        }
+
+        /* Button style matching the drawn box */
+        .add {
+            background: none;
+            border: 2px solid #000000;
+            color: #000000;
+            padding: 8px 16px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all 0.2s ease;
+        }
+        .remove{
+            background: none;
+            border: 2px solid #000000;
+            color: #000000;
+            padding: 8px 16px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all 0.2s ease;
+        }
+
+        /* Subtle hover effect for better usability */
+        .btn:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .notes{
+              display: flex;
+             flex-direction: column;
+        }
+
+    textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    resize: none;
+    outline: none;
+    
+}
+.done{
+    text-decoration: line-through;
+    background-color: grey;
+}
