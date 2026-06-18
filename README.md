@@ -6,3 +6,4 @@ A collection of beginner-friendly JavaScript projects built while learning JavaS
 - Digital Clock
 - rock-paper-scissor game
 - tic-tac-toe
+- To-do list
