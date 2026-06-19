@@ -7,3 +7,4 @@ A collection of beginner-friendly JavaScript projects built while learning JavaS
 - rock-paper-scissor game
 - tic-tac-toe
 - To-do list
+- weather API
