@@ -14,7 +14,7 @@ searchBtn.addEventListener("click",function(){
         return;
     }
     let city =cityInput.value.trim();
-   let url =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ca555f4b4371ea1485440365281c60e8&units=metric`
+   let url =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=[API key here]&units=metric`
    
    fetch(url)
    .then(Response=>Response.json())
